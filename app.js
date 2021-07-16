@@ -6,7 +6,7 @@ var app = express()
 var mqtt = require('mqtt');
 
 // Your Channel access token (long-lived) 
-const CH_ACCESS_TOKEN = '7Gg78e0RactcyZX1cs6WZdVYWYG7glg7bzL3tLFr3eR8nEZcdjsaq+AYOHgmuKRpfwm7MUhRwHm3ozgCtdOi4SBktcArDT82KbkG2Bc8MZKKzSgmFMhpqEIjkrFzOib/KIMVAhW3qeKlDAwqD7DWUgdB04t89/1O/w1cDnyilFU=';
+const CH_ACCESS_TOKEN = 'ZhJ55FbyrxHQ7XRs2n3uK3ULalwLY6RMCxkYgR64yh3uIHdo40OIvgnlOaj+a8HDJUkWfAI8x3g+BW1ptxyxHTC/SCaKivJjqav3XEcMUQAcpt4acnwnq6RFp2P8B7h2scV9X6LW8nd0CHHbhs5OMwdB04t89/1O/w1cDnyilFU=';
 
 // MQTT Host
 var mqtt_host = 'mqtt://soldier.cloudmqtt.com';
@@ -19,8 +19,8 @@ var options = {
     port: 10174,
     host: 'mqtt://soldier.cloudmqtt.com',
     clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
-    username: 'qurygeum',
-    password: 'vDKjrZ5FpIHJ',
+    username: 'brdhfcif',
+    password: 'gviTCGqRHgB9',
     keepalive: 60,
     reconnectPeriod: 1000,
     protocolId: 'MQIsdp',
