@@ -17,7 +17,7 @@ var mqtt_topic = '/may';
 // MQTT Config
 var options = {
     port: 10174,
-    host: 'mqtt://soldier.cloudmqtt.com',
+    host: 'soldier.cloudmqtt.com',
     clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
     username: 'brdhfcif',
     password: 'gviTCGqRHgB9',
