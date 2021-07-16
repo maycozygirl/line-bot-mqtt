@@ -9,18 +9,18 @@ var mqtt = require('mqtt');
 const CH_ACCESS_TOKEN = 'ZhJ55FbyrxHQ7XRs2n3uK3ULalwLY6RMCxkYgR64yh3uIHdo40OIvgnlOaj+a8HDJUkWfAI8x3g+BW1ptxyxHTC/SCaKivJjqav3XEcMUQAcpt4acnwnq6RFp2P8B7h2scV9X6LW8nd0CHHbhs5OMwdB04t89/1O/w1cDnyilFU=';
 
 // MQTT Host
-var mqtt_host = 'mqtt://driver.cloudmqtt.com';
+var mqtt_host = 'mqtt://soldier.cloudmqtt.com';
 
 // MQTT Topic
 var mqtt_topic = '/may';
 
 // MQTT Config
 var options = {
-    port: 18672,
-    host: 'mqtt://driver.cloudmqtt.com',
+    port: 10174,
+    host: 'mqtt://soldier.cloudmqtt.com',
     clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
-    username: 'qurygeum',
-    password: 'vDKjrZ5FpIHJ',
+    username: 'brdhfcif',
+    password: 'gviTCGqRHgB9',
     keepalive: 60,
     reconnectPeriod: 1000,
     protocolId: 'MQIsdp',
